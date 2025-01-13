@@ -1,6 +1,8 @@
 body {
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -110,4 +112,12 @@ button {
     border-color: white;
     padding: 12px;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 22px 0;
+    display: flex;
+    justify-content: center;
 }
