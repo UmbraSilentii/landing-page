@@ -6,11 +6,12 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
+    padding: 0 400px;
 }
 
 .head {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-top: 16px;
 }
@@ -35,12 +36,23 @@ a {
 
 .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 42px;
+    padding: 42px 0;
 }
 
 .title {
     max-width: 450px;
     flex-shrink: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
