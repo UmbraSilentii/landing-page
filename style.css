@@ -80,16 +80,12 @@ figure img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 52px 72px;
+    padding: 52px 400px;
     height: 332px;
 }
 
-blockquote {
-    width: 800px;
-}
-
 .quote p {
-    padding-left: 500px;
+    align-self: flex-end;
     font-weight: bold;
 }
 
